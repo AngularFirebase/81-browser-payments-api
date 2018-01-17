@@ -1,8 +1,8 @@
-# Episode 81
+# Episode 81 - Browser Payments API
 
 Watch the [screencast]()
 
-Get the [Full Stack Stripe Payments](https://projects.angularfirebase.com/p/stripe-payments-with-angular-and-firebase) course. 
+[Full Stack Stripe Payments](https://projects.angularfirebase.com/p/stripe-payments-with-angular-and-firebase) course. 
 
 ## HTTPS
 
