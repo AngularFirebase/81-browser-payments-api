@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ngrok": "~/ngrok http 4200 --host-header=localhost:8080"
   },
   "private": true,
   "dependencies": {

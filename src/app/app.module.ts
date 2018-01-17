@@ -14,14 +14,18 @@ import { AngularFireAuthModule } from 'angularfire2/auth';
 // Firebase setup instructions
 
 // 1. delete this line, then...
-import { firebaseConfig } from '../env'; 
+import { firebaseConfig } from '../env';
+import { PaymentRequestComponent } from './payment-request/payment-request.component'; 
 
 // 2. Add your own firebase config to environment.ts
 // 3. Then use it to initialize angularfire2 below, like so AngularFireModule.initializeApp(environment.firebaseConfig),
 
+import { PaymentService } from './payment.service';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PaymentRequestComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,7 @@ import { firebaseConfig } from '../env';
     AngularFirestoreModule,
     AngularFireAuthModule
   ],
-  providers: [],
+  providers: [PaymentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
